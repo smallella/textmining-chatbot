@@ -44,9 +44,9 @@ def main():
     profile = get_user_profile()
 
     if "user_name" not in st.session_state:
-        st.session_state["user_name"] = profile["user_name"] if profile else "Brian"
+        st.session_state["user_name"] = profile["user_name"] if profile else "Ella"
     if "user_image" not in st.session_state:
-        st.session_state["user_image"] = profile["user_image"] if profile else "https://www.w3schools.com/howto/img_avatar.png"
+        st.session_state["user_image"] = profile["user_image"] if profile else "https://images.unsplash.com/photo-1602847213180-50e43a80bef4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFtYnxlbnwwfHwwfHx8MA%3D%3D"
 
     # Show title and description.
     user_name = st.session_state["user_name"]
