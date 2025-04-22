@@ -9,5 +9,3 @@ autogen-ext[openai]
 # Data Processing
 pymupdf
 pandas
-matplotlib
-matplotlib wordcloud
