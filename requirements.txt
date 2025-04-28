@@ -7,7 +7,15 @@ autogen-agentchat
 autogen-ext[openai]
 
 # Data Processing
+gensim
+numpy==1.23.0
+nltk
 pymupdf
 pandas
+scikit-learn
+
+# Visualization
 matplotlib
-matplotlib wordcloud
+plotly
+wordcloud
+jieba
