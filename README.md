@@ -41,4 +41,4 @@ A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
    ```
    - Press ctrl+C to stop the app
 
-See deployed: https://brian-textmining-chatbot.streamlit.app/
+See deployed: https://ella-textmining-chatbot.streamlit.app/
