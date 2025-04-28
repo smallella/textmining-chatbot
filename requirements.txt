@@ -8,7 +8,7 @@ autogen-ext[openai]
 
 # Data Processing
 gensim
-numpy==1.23.0
+numpy
 nltk
 pymupdf
 pandas
